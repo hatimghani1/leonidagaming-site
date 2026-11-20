@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Fan site. Not affiliated with Rockstar Games or Take-Two Interactive.
+Sitemap: https://leonidagaming.com/sitemap.xml
