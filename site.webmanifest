@@ -1,0 +1,14 @@
+{
+  "name": "Leonida Guides",
+  "short_name": "Leonida",
+  "description": "Unofficial GTA 6 fan guides: money, map, vehicles and daily tips.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07060b",
+  "theme_color": "#07060b",
+  "icons": [
+    {"src": "/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

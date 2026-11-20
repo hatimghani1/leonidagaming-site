@@ -14,12 +14,22 @@
   <meta property="og:title" content="About Leonida Guides — Honest, Independent GTA 6 Coverage">
   <meta property="og:description" content="Leonida Guides is an independent GTA 6 fan site. We publish honest, ToS-safe guides and clearly sourced official facts. Not affiliated with Rockstar Games.">
   <meta property="og:url" content="https://leonidagaming.com/about.html">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://leonidagaming.com/images/hero-og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Original illustration: neon art deco hotels and palm trees along a beach boulevard at sunset">
+  <meta name="twitter:image" content="https://leonidagaming.com/images/hero-og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="About Leonida Guides — Honest, Independent GTA 6 Coverage">
   <meta name="twitter:description" content="Leonida Guides is an independent GTA 6 fan site. We publish honest, ToS-safe guides and clearly sourced official facts. Not affiliated with Rockstar Games.">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="images/emblem.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Unbounded:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
 {
@@ -38,7 +48,8 @@
   "publisher": {
     "@type": "Organization",
     "name": "Leonida Guides",
-    "url": "https://leonidagaming.com/"
+    "url": "https://leonidagaming.com/",
+    "logo": {"@type": "ImageObject", "url": "https://leonidagaming.com/logo.png"}
   }
 }
   </script>
@@ -88,23 +99,25 @@
   </script>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="wrap nav-wrap">
-    <a class="logo" href="index.html">Leonida <span>Guides</span></a>
-    <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <label for="nav-toggle" class="nav-btn" aria-label="Open menu"><span></span><span></span><span></span></label>
+    <a class="logo" href="index.html" aria-label="Leonida Guides home"><img src="images/emblem.svg" width="40" height="40" alt=""><span class="logo-text"><b>LEONIDA</b><small>GUIDES</small></span></a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+    <label for="nav-toggle" class="nav-btn" aria-hidden="true"><span></span><span></span><span></span></label>
     <nav class="site-nav" aria-label="Main">
       <a href="index.html">Home</a>
       <a href="money-guide.html">Money Guide</a>
       <a href="map.html">Map</a>
       <a href="vehicles.html">Vehicles</a>
       <a href="daily-tips.html">Daily Tips</a>
-      <a href="about.html" class="is-active">About</a>
+      <a href="about.html" class="is-active" aria-current="page">About</a>
     </nav>
   </div>
 </header>
-<main>
-  <section class="hero">
+<main id="main">
+  <section class="hero hero-hub">
+    <div class="hero-bg" aria-hidden="true"><img src="images/hero.webp" width="1600" height="900" alt="" fetchpriority="high"></div>
     <div class="wrap">
       <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / About</nav>
       <p class="kicker">Editorial policy</p>
@@ -141,18 +154,14 @@
 <footer class="site-footer">
   <div class="wrap footer-grid">
     <div>
-      <a class="logo" href="index.html">Leonida <span>Guides</span></a>
-      <p>Honest GTA 6 guides and news, updated 19 November 2026. This is a fan site — not affiliated with or endorsed by Rockstar Games, Take-Two Interactive, PlayStation, or Xbox. Grand Theft Auto is a trademark of Take-Two Interactive Software, Inc.</p>
+      <a class="logo" href="index.html" aria-label="Leonida Guides home"><img src="images/emblem.svg" width="40" height="40" alt="" loading="lazy"><span class="logo-text"><b>LEONIDA</b><small>GUIDES</small></span></a>
+      <span class="fan-badge">Unofficial fan site</span>
+      <p>Honest GTA 6 guides and news, updated 20 November 2026. Not affiliated with or endorsed by Rockstar Games, Take-Two Interactive, PlayStation, or Xbox. Grand Theft Auto is a trademark of Take-Two Interactive Software, Inc. All artwork on this site is original.</p>
     </div>
     <div>
       <h3>Explore</h3>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="money-guide.html">Money Guide</a></li>
-        <li><a href="map.html">Map</a></li>
-        <li><a href="vehicles.html">Vehicles</a></li>
-        <li><a href="daily-tips.html">Daily Tips</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="index.html">Home</a></li><li><a href="money-guide.html">Money Guide</a></li><li><a href="map.html">Map</a></li><li><a href="vehicles.html">Vehicles</a></li><li><a href="daily-tips.html">Daily Tips</a></li><li><a href="about.html">About</a></li>
       </ul>
     </div>
     <div>
@@ -163,9 +172,18 @@
         <li><a href="articles/gta-6-vice-city-money.html">Vice City (Chapters 3–4)</a></li>
       </ul>
     </div>
+    <div>
+      <h3>Latest</h3>
+      <ul>
+        <li><a href="articles/gta-6-pc-release-date.html">Is GTA 6 on PC?</a></li>
+        <li><a href="articles/gta-6-vintage-vice-city-pack.html">Vintage Vice City Pack</a></li>
+        <li><a href="sitemap.xml">Sitemap</a></li>
+      </ul>
+    </div>
   </div>
   <div class="wrap legal">
-    <p>No cheats, glitches, hacks, or Terms of Service violations. Official facts are labeled official. In-game payouts are attributed launch-day reports and will be updated as more data lands.</p>
+    <p>No cheats, glitches, hacks, leaks, or Terms of Service violations. Official facts are labeled official. In-game payouts are attributed launch-day reports and are updated as more data lands.</p>
+    <p>© 2026 Leonida Guides · leonidagaming.com</p>
   </div>
 </footer>
 </body>

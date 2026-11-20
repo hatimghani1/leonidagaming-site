@@ -14,12 +14,22 @@
   <meta property="og:title" content="GTA 6 Guides &amp; News (19 Nov 2026): Honest Leonida Guides">
   <meta property="og:description" content="GTA 6 launched 19 November 2026 on PS5 and Xbox Series X|S. Honest money, map, vehicle, and beginner guides. No cheats. Official facts, attributed launch-day reports.">
   <meta property="og:url" content="https://leonidagaming.com/">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://leonidagaming.com/images/hero-og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Original illustration: neon art deco hotels and palm trees along a beach boulevard at sunset">
+  <meta name="twitter:image" content="https://leonidagaming.com/images/hero-og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="GTA 6 Guides &amp; News (19 Nov 2026): Honest Leonida Guides">
   <meta name="twitter:description" content="GTA 6 launched 19 November 2026 on PS5 and Xbox Series X|S. Honest money, map, vehicle, and beginner guides. No cheats. Official facts, attributed launch-day reports.">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="images/emblem.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Unbounded:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
 {
@@ -31,7 +41,8 @@
   "publisher": {
     "@type": "Organization",
     "name": "Leonida Guides",
-    "url": "https://leonidagaming.com/"
+    "url": "https://leonidagaming.com/",
+    "logo": {"@type": "ImageObject", "url": "https://leonidagaming.com/logo.png"}
   },
   "inLanguage": "en"
 }
@@ -49,11 +60,12 @@
     "url": "https://leonidagaming.com/"
   },
   "inLanguage": "en",
-  "dateModified": "2026-11-19",
+  "dateModified": "2026-11-20",
   "publisher": {
     "@type": "Organization",
     "name": "Leonida Guides",
-    "url": "https://leonidagaming.com/"
+    "url": "https://leonidagaming.com/",
+    "logo": {"@type": "ImageObject", "url": "https://leonidagaming.com/logo.png"}
   }
 }
   </script>
@@ -107,13 +119,14 @@
   </script>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="wrap nav-wrap">
-    <a class="logo" href="index.html">Leonida <span>Guides</span></a>
-    <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <label for="nav-toggle" class="nav-btn" aria-label="Open menu"><span></span><span></span><span></span></label>
+    <a class="logo" href="index.html" aria-label="Leonida Guides home"><img src="images/emblem.svg" width="40" height="40" alt=""><span class="logo-text"><b>LEONIDA</b><small>GUIDES</small></span></a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+    <label for="nav-toggle" class="nav-btn" aria-hidden="true"><span></span><span></span><span></span></label>
     <nav class="site-nav" aria-label="Main">
-      <a href="index.html" class="is-active">Home</a>
+      <a href="index.html" class="is-active" aria-current="page">Home</a>
       <a href="money-guide.html">Money Guide</a>
       <a href="map.html">Map</a>
       <a href="vehicles.html">Vehicles</a>
@@ -122,15 +135,22 @@
     </nav>
   </div>
 </header>
-<main>
-  <section class="hero">
+<main id="main">
+  <section class="hero hero-home">
+    <div class="hero-bg" aria-hidden="true"><img src="images/hero.webp" width="1600" height="900" alt="" fetchpriority="high"></div>
     <div class="wrap">
-      <p class="kicker">Updated 20 November 2026</p>
-      <h1>GTA 6 is out now. Here are honest guides for Leonida.</h1>
-      <p class="lede">Grand Theft Auto VI launched today for PlayStation 5 and Xbox Series X|S. Leonida Guides covers money, the map, vehicles, and beginner tips with verified official facts — and clearly labeled launch-day reports. No cheats, no glitches, no Terms of Service violations.</p>
+      <p class="kicker">Updated 20 November 2026 · Unofficial fan guides</p>
+      <h1>GTA 6 is out. <span class="grad-text">Master Leonida.</span></h1>
+      <p class="lede">Grand Theft Auto VI launched on 19 November 2026 for PlayStation 5 and Xbox Series X|S. Leonida Guides covers money, the map, vehicles, and beginner tips with verified official facts and clearly labeled launch-day reports. No cheats, no glitches, no Terms of Service violations.</p>
       <div class="btn-row">
-        <a class="btn btn-primary" href="money-guide.html">Open the money guide</a>
-        <a class="btn btn-ghost" href="daily-tips.html">Beginner tips &amp; editions</a>
+        <a class="btn btn-primary" href="money-guide.html">Open the money guide →</a>
+        <a class="btn btn-ghost" href="articles/gta-6-pc-release-date.html">Is GTA 6 on PC?</a>
+      </div>
+      <div class="stats" aria-label="Launch facts">
+        <span class="stat"><b>PS5</b> &amp; <b>Xbox Series X|S</b></span>
+        <span class="stat">PC: <b>not announced</b></span>
+        <span class="stat">Storage: <b>212 GB</b> min (PS5)</span>
+        <span class="stat">Online: <b>not announced</b></span>
       </div>
       <div class="update">
         <strong>Official status:</strong> Out now worldwide on PS5 (including PS5 Pro Enhanced) and Xbox Series X|S. Not on PlayStation 4. No official PC version or GTA 6 Online announcement as of today. The free Vintage Vice City Pack window closed with purchases before <strong>20 November 2026</strong>; the pack is now a separate add-on. <a href="articles/gta-6-vintage-vice-city-pack.html">See the pack guide</a>.
@@ -146,16 +166,19 @@
       </div>
       <div class="grid grid-3">
         <article class="card">
+          <div class="card-thumb"><img src="images/gta-6-early-game-money-thumb.webp" width="640" height="360" alt="" loading="lazy" decoding="async"></div>
           <div class="tag">Chapter 1 · Keys</div>
           <h3><a href="articles/gta-6-early-game-money.html">Early-game money in the Keys</a></h3>
           <p>Why cash is tight, how to stash it, and why Kenton’s treasure dives are the best honest loop before fences open.</p>
         </article>
         <article class="card">
+          <div class="card-thumb"><img src="images/gta-6-port-gellhorn-money-thumb.webp" width="640" height="360" alt="" loading="lazy" decoding="async"></div>
           <div class="tag">Chapter 2 · Port Gellhorn</div>
           <h3><a href="articles/gta-6-port-gellhorn-money.html">Moses, hunting, and motel rent</a></h3>
           <p>Sell untracked cars to Moses, hunt for Bret, and scrape together Starlet Motel rent without chasing later unlocks.</p>
         </article>
         <article class="card">
+          <div class="card-thumb"><img src="images/gta-6-vice-city-money-thumb.webp" width="640" height="360" alt="" loading="lazy" decoding="async"></div>
           <div class="tag">Chapters 3–4 · Vice City</div>
           <h3><a href="articles/gta-6-vice-city-money.html">Snap gun jobs, Randy, and Pete</a></h3>
           <p>Back-door robberies after the snap gun, high-end cars for Randy, Ocean Beach Pay ’N’ Spray, and Pilot Pete’s drops.</p>
@@ -167,14 +190,26 @@
   <section>
     <div class="wrap">
       <div class="section-head">
-        <h2>New today: 20 November 2026</h2>
-        <p>The free Vintage Vice City Pack window has closed. Here is what changed and how to claim it.</p>
+        <p class="kicker">New today</p>
+        <h2>Latest guides: 20 November 2026</h2>
+        <p>The biggest launch-week questions: can you play on PC, and is the free Vintage Vice City Pack gone?</p>
       </div>
       <div class="grid grid-2">
-        <article class="card">
-          <div class="tag">Editions · Daily Tips</div>
-          <h3><a href="articles/gta-6-vintage-vice-city-pack.html">GTA 6 Vintage Vice City Pack: deadline, price, and how to claim it</a></h3>
-          <p>What’s in the pack, who got it for free, the new stand-alone add-on ($4.99 US Xbox / £4.49 UK PlayStation), and the Chapter 3 Ocean View Hotel pickup.</p>
+        <article class="card card-feature">
+          <div class="card-thumb"><img src="images/gta-6-pc-release-date.webp" width="1200" height="675" alt="" loading="lazy" decoding="async"></div>
+          <div class="card-body">
+            <div class="tag">Platforms · New</div>
+            <h3><a href="articles/gta-6-pc-release-date.html">GTA 6 PC release date: is GTA 6 on PC?</a></h3>
+            <p>No PC version is announced. Here is the unconfirmed Q1 2027 report, why Xbox Cloud Gaming won’t stream to PC, what Remote Play can do, and the malware hiding in fake “PC downloads”.</p>
+          </div>
+        </article>
+        <article class="card card-feature card-flip">
+          <div class="card-thumb"><img src="images/gta-6-vintage-vice-city-pack.webp" width="1200" height="675" alt="" loading="lazy" decoding="async"></div>
+          <div class="card-body">
+            <div class="tag">Editions · Daily Tips</div>
+            <h3><a href="articles/gta-6-vintage-vice-city-pack.html">GTA 6 Vintage Vice City Pack: deadline, price, and how to claim it</a></h3>
+            <p>What’s in the pack, who got it for free, the new stand-alone add-on ($4.99 US Xbox / £4.49 UK PlayStation), and the Chapter 3 Ocean View Hotel pickup.</p>
+          </div>
         </article>
       </div>
     </div>
@@ -184,25 +219,29 @@
     <div class="wrap">
       <div class="section-head">
         <h2>Explore the site</h2>
-        <p>Six main pages, built as hubs you can grow with more spokes.</p>
+        <p>Six hubs covering everything Leonida, updated as new verified info lands.</p>
       </div>
       <div class="grid grid-2">
-        <article class="card">
+        <article class="card hub-card">
+          <div class="hub-ico" aria-hidden="true">💰</div>
           <div class="tag">Economy</div>
           <h3><a href="money-guide.html">Money Guide</a></h3>
           <p>How BuckMe, cash, and loot bags work, plus chapter-by-chapter methods. No money cheats.</p>
         </article>
-        <article class="card">
+        <article class="card hub-card">
+          <div class="hub-ico" aria-hidden="true">🗺️</div>
           <div class="tag">Leonida</div>
           <h3><a href="map.html">Map</a></h3>
           <p>The six official regions: Vice City, the Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia, and Mount Kalaga.</p>
         </article>
-        <article class="card">
+        <article class="card hub-card">
+          <div class="hub-ico" aria-hidden="true">🚗</div>
           <div class="tag">Garage</div>
           <h3><a href="vehicles.html">Vehicles</a></h3>
           <p>Officially named cars from the Standard, Ultimate, and Vintage Vice City Pack, plus how selling cars works.</p>
         </article>
-        <article class="card">
+        <article class="card hub-card">
+          <div class="hub-ico" aria-hidden="true">📅</div>
           <div class="tag">Launch FAQs</div>
           <h3><a href="daily-tips.html">Daily Tips</a></h3>
           <p>212 GB file size, Standard vs Ultimate, the Vintage Vice City Pack, PC and Online status, and first-hour advice.</p>
@@ -247,18 +286,14 @@
 <footer class="site-footer">
   <div class="wrap footer-grid">
     <div>
-      <a class="logo" href="index.html">Leonida <span>Guides</span></a>
-      <p>Honest GTA 6 guides and news, updated 19 November 2026. This is a fan site — not affiliated with or endorsed by Rockstar Games, Take-Two Interactive, PlayStation, or Xbox. Grand Theft Auto is a trademark of Take-Two Interactive Software, Inc.</p>
+      <a class="logo" href="index.html" aria-label="Leonida Guides home"><img src="images/emblem.svg" width="40" height="40" alt="" loading="lazy"><span class="logo-text"><b>LEONIDA</b><small>GUIDES</small></span></a>
+      <span class="fan-badge">Unofficial fan site</span>
+      <p>Honest GTA 6 guides and news, updated 20 November 2026. Not affiliated with or endorsed by Rockstar Games, Take-Two Interactive, PlayStation, or Xbox. Grand Theft Auto is a trademark of Take-Two Interactive Software, Inc. All artwork on this site is original.</p>
     </div>
     <div>
       <h3>Explore</h3>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="money-guide.html">Money Guide</a></li>
-        <li><a href="map.html">Map</a></li>
-        <li><a href="vehicles.html">Vehicles</a></li>
-        <li><a href="daily-tips.html">Daily Tips</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="index.html">Home</a></li><li><a href="money-guide.html">Money Guide</a></li><li><a href="map.html">Map</a></li><li><a href="vehicles.html">Vehicles</a></li><li><a href="daily-tips.html">Daily Tips</a></li><li><a href="about.html">About</a></li>
       </ul>
     </div>
     <div>
@@ -269,9 +304,18 @@
         <li><a href="articles/gta-6-vice-city-money.html">Vice City (Chapters 3–4)</a></li>
       </ul>
     </div>
+    <div>
+      <h3>Latest</h3>
+      <ul>
+        <li><a href="articles/gta-6-pc-release-date.html">Is GTA 6 on PC?</a></li>
+        <li><a href="articles/gta-6-vintage-vice-city-pack.html">Vintage Vice City Pack</a></li>
+        <li><a href="sitemap.xml">Sitemap</a></li>
+      </ul>
+    </div>
   </div>
   <div class="wrap legal">
-    <p>No cheats, glitches, hacks, or Terms of Service violations. Official facts are labeled official. In-game payouts are attributed launch-day reports and will be updated as more data lands.</p>
+    <p>No cheats, glitches, hacks, leaks, or Terms of Service violations. Official facts are labeled official. In-game payouts are attributed launch-day reports and are updated as more data lands.</p>
+    <p>© 2026 Leonida Guides · leonidagaming.com</p>
   </div>
 </footer>
 </body>
