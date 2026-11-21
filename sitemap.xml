@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://leonidagaming.com/map.html</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -88,6 +88,12 @@
     <loc>https://leonidagaming.com/articles/gta-6-file-size.html</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://leonidagaming.com/articles/gta-6-radio-stations.html</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
 </urlset>
