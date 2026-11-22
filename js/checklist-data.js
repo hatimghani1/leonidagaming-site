@@ -1,7 +1,7 @@
 /* Leonida Guides GTA 6 checklist data. Routines: append verified items only; never change existing ids (they key saved progress). */
 window.LG_CHECKLIST = {
  "version": 1,
- "updated": "2026-11-20",
+ "updated": "2026-11-22",
  "sources": [
   {
    "id": "gr-missions",
@@ -57,6 +57,16 @@ window.LG_CHECKLIST = {
    "id": "rockstar-vi",
    "name": "Rockstar Games: Grand Theft Auto VI (editions and bonus content)",
    "url": "https://www.rockstargames.com/VI"
+  },
+  {
+   "id": "ppx-banks",
+   "name": "PowerPyx: GTA 6 All Bank Jobs Locations (Bank Vaults)",
+   "url": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/"
+  },
+  {
+   "id": "gg-banks",
+   "name": "Games.gg: GTA 6 All 22 Bank Locations",
+   "url": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/"
   }
  ],
  "categories": [
@@ -1155,6 +1165,129 @@ window.LG_CHECKLIST = {
      "id": "veh-classic-car-collection-wyman",
      "label": "Classic Car Collection (Wyman)",
      "note": "Ultimate Edition commission"
+    }
+   ]
+  },
+  {
+   "id": "bank-jobs",
+   "group": "Robberies",
+   "title": "Bank Jobs: all 22 banks (14 small + 8 vaults)",
+   "status": "verified",
+   "sources": [
+    "ppx-banks",
+    "gg-banks"
+   ],
+   "note": "Small banks unlock with the Chapter 3 mission Credit Check; vaults unlock with the optional end-of-Chapter-4 mission That’s Where The Money Is…. Loot every listed target for a bank to count. Numbers follow PowerPyx’s map; full guide: leonidagaming.com/articles/gta-6-bank-vault-robbery.html",
+   "items": [
+    {
+     "id": "bank-fleeca-key-lento",
+     "label": "#1 Fleeca, Key Lento",
+     "note": "Small bank · Mariana County · cash drawer + safe"
+    },
+    {
+     "id": "bank-shorefront-watson-bay",
+     "label": "#2 Shorefront, Watson Bay",
+     "note": "Small bank · Mariana County · cash drawer + safe"
+    },
+    {
+     "id": "bank-gibson-brothers",
+     "label": "#3 Gibson Brothers Bank",
+     "note": "Small bank · Mariana County · cash drawer + safe"
+    },
+    {
+     "id": "bank-lombank-peacock-bay",
+     "label": "#4 Lombank, Peacock Bay",
+     "note": "Small bank · Vice City · cash drawer + safe"
+    },
+    {
+     "id": "bank-fleeca-peacock-bay",
+     "label": "#5 Fleeca, Peacock Bay",
+     "note": "Small bank · Vice City · cash drawer + safe"
+    },
+    {
+     "id": "bank-shorefront-downtown",
+     "label": "#6 Shorefront, Downtown",
+     "note": "Small bank · Vice City · cash drawer + safe"
+    },
+    {
+     "id": "bank-shorefront-rockridge",
+     "label": "#7 Shorefront, Rockridge",
+     "note": "Small bank · Vice City · cash drawer + safe"
+    },
+    {
+     "id": "bank-lombank-bayside",
+     "label": "#8 Lombank, Bayside",
+     "note": "Small bank · Vice City · cash drawer + safe"
+    },
+    {
+     "id": "bank-fleeca-washington-beach",
+     "label": "#9 Fleeca, Washington Beach",
+     "note": "Small bank · Vice City · cash drawer + safe"
+    },
+    {
+     "id": "bank-lombank-ocean-beach-small",
+     "label": "#10 Lombank, Ocean Beach (small bank)",
+     "note": "Small bank · Vice City · cash drawer + safe"
+    },
+    {
+     "id": "bank-fleeca-ocean-beach-small",
+     "label": "#11 Fleeca, Ocean Beach (small bank)",
+     "note": "Small bank · Vice City · cash drawer + safe"
+    },
+    {
+     "id": "bank-shorefront-ocean-beach-small",
+     "label": "#12 Shorefront, Ocean Beach (small bank)",
+     "note": "Small bank · Vice City · cash drawer + safe"
+    },
+    {
+     "id": "bank-druthers-state-bank",
+     "label": "#13 Druthers State Bank",
+     "note": "Small bank · Leonard County · cash drawer + safe"
+    },
+    {
+     "id": "bank-shorefront-ambrosia",
+     "label": "#14 Shorefront, Ambrosia",
+     "note": "Small bank · Kelly County · cash drawer + safe"
+    },
+    {
+     "id": "bank-fleeca-vcia",
+     "label": "#15 Fleeca, VCIA",
+     "note": "Large bank · vault + cash drawer + safe"
+    },
+    {
+     "id": "bank-fleeca-tequesta",
+     "label": "#16 Fleeca, Tequesta",
+     "note": "Large bank · vault + cash drawer + safe"
+    },
+    {
+     "id": "bank-lombank-downtown",
+     "label": "#17 Lombank, Downtown",
+     "note": "Large bank · vault + cash drawer + safe"
+    },
+    {
+     "id": "bank-fleeca-downtown",
+     "label": "#18 Fleeca, Downtown",
+     "note": "Large bank · vault + cash drawer + safe"
+    },
+    {
+     "id": "bank-lombank-ocean-beach-vault-a",
+     "label": "#19 Lombank, Ocean Beach (vault, $135K–$205K)",
+     "note": "Large bank · vault + cash drawer + safe"
+    },
+    {
+     "id": "bank-fleeca-ocean-beach-vault",
+     "label": "#20 Fleeca, Ocean Beach (vault)",
+     "note": "Large bank · vault + cash drawer + safe"
+    },
+    {
+     "id": "bank-lombank-ocean-beach-vault-b",
+     "label": "#21 Lombank, Ocean Beach (vault, $75K–$135K)",
+     "note": "Large bank · vault + cash drawer + safe"
+    },
+    {
+     "id": "bank-shorefront-ocean-beach-vault",
+     "label": "#22 Shorefront, Ocean Beach (vault)",
+     "note": "Large bank · vault + cash drawer + safe"
     }
    ]
   },
