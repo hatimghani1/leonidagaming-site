@@ -112,4 +112,10 @@
     <loc>https://leonidagaming.com/articles/gta-6-bank-vault-robbery.html</loc>
     <lastmod>2026-11-22</lastmod>
   </url>
+  <url>
+    <loc>https://leonidagaming.com/articles/gta-6-how-to-save.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
 </urlset>
