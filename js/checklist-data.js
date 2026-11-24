@@ -1,7 +1,7 @@
 /* Leonida Guides GTA 6 checklist data. Routines: append verified items only; never change existing ids (they key saved progress). */
 window.LG_CHECKLIST = {
  "version": 1,
- "updated": "2026-11-22",
+ "updated": "2026-11-24",
  "sources": [
   {
    "id": "gr-missions",
@@ -67,6 +67,16 @@ window.LG_CHECKLIST = {
    "id": "gg-banks",
    "name": "Games.gg: GTA 6 All 22 Bank Locations",
    "url": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/"
+  },
+  {
+   "id": "gtabase-kirk",
+   "name": "GTABase: Strangers & Freaks – Kirk missions (Search for the Skunk Ape, Search for Tree Effigies, Help Kirk Find Mr. Mangrove)",
+   "url": "https://www.gtabase.com/gta-6/strangers/help-kirk-find-mr-mangrove"
+  },
+  {
+   "id": "ppx-kirk",
+   "name": "PowerPyx: GTA 6 Help Kirk Find Mr. Mangrove walkthrough",
+   "url": "https://www.powerpyx.com/gta-6-help-kirk-find-mr-mangrove-walkthrough/"
   }
  ],
  "categories": [
@@ -1288,6 +1298,35 @@ window.LG_CHECKLIST = {
      "id": "bank-shorefront-ocean-beach-vault",
      "label": "#22 Shorefront, Ocean Beach (vault)",
      "note": "Large bank · vault + cash drawer + safe"
+    }
+   ]
+  },
+  {
+   "id": "strangers-freaks",
+   "group": "Side missions",
+   "title": "Strangers & Freaks (all 8 strands for the Silver trophy)",
+   "status": "in-progress",
+   "sources": [
+    "gtabase-kirk",
+    "ppx-kirk"
+   ],
+   "note": "List in progress: Kirk’s Skunk Ape strand is verified by GTABase and PowerPyx; the other 7 strands are added once two reliable guides agree. Every strand counts toward the Strangers & Freaks trophy and 100%. Full Kirk guide: leonidagaming.com/articles/gta-6-bigfoot-skunk-ape.html",
+   "items": [
+    {
+     "id": "sf-kirk-1-search-skunk-ape",
+     "label": "Kirk 1/3: Search for the Skunk Ape",
+     "note": "Read a Skunk Ape flyer (Rusty Anchor, Key Lento or Skeeter’s bar, Hamlet), call Kirk, meet him near Pelican River at night · Chapter 1 · Jason or Lucia"
+    },
+    {
+     "id": "sf-kirk-2-tree-effigies",
+     "label": "Kirk 2/3: Search for Tree Effigies",
+     "note": "Wait for Kirk’s text, then inspect 3 tree effigies in the Pelican Valley search area (any order) · Jason or Lucia"
+    },
+    {
+     "id": "sf-kirk-3-mr-mangrove",
+     "label": "Kirk 3/3: Help Kirk Find Mr. Mangrove",
+     "note": "Kirk texts a few in-game days later · Cottonmouth Lake, night only · listed as Lucia-only from Chapter 2 (some players report finishing it as Jason in Chapter 1) · any ending counts",
+     "spoiler": "Only shooting Mr. Mangrove pays $10,000; every ending gives the Mister Mangrove Laird 350 rifle"
     }
    ]
   },
