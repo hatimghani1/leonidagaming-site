@@ -230,3 +230,50 @@ tbody tr:hover{background:rgba(255,255,255,.03)}
 .card-checklist{border-color:var(--border-hi);background:linear-gradient(120deg,rgba(255,45,149,.14),rgba(46,233,208,.06))}
 .cl-item label{min-width:0}
 @media (max-width:600px){.cl-toolbar{position:static}.cl-item label{flex-basis:calc(100% - 2.5rem)}}
+
+/* Sponsored giveaway (third-party, 25 Nov 2026) */
+.wrap.sponsored-giveaway{width:min(100% - 2.5rem,var(--prose))}
+.sponsored-giveaway{
+  margin:2rem auto 1.6rem;
+  padding:1.15rem 1.25rem 1.2rem;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+}
+.sponsored-kicker{
+  display:inline-flex;
+  align-items:center;
+  gap:.4rem;
+  font-size:.68rem;
+  font-weight:700;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--dim);
+  border:1px solid var(--border);
+  border-radius:999px;
+  padding:.22rem .65rem;
+  margin:0 0 .75rem;
+  background:rgba(255,255,255,.04);
+}
+.sponsored-giveaway>p{color:var(--muted);font-size:.9rem;margin:0 0 1rem;line-height:1.6}
+.sponsored-offers{display:grid;gap:.7rem;grid-template-columns:1fr 1fr}
+@media (max-width:640px){.sponsored-offers{grid-template-columns:1fr}}
+.sponsored-offer{
+  display:flex;align-items:center;gap:.75rem;
+  text-decoration:none;color:var(--text);
+  background:rgba(255,255,255,.04);
+  border:1px solid var(--border);
+  border-radius:var(--radius-sm);
+  padding:.8rem .95rem;
+  transition:border-color .2s,background .2s,color .2s;
+}
+.sponsored-offer:hover{border-color:rgba(46,233,208,.45);color:#fff;background:rgba(46,233,208,.08)}
+.sponsored-ico{
+  flex:none;width:42px;height:42px;border-radius:10px;
+  display:grid;place-items:center;
+  font-family:var(--f-display);font-size:.68rem;font-weight:700;letter-spacing:.04em;
+}
+.sponsored-ico-ps{background:rgba(46,233,208,.12);color:var(--teal);border:1px solid rgba(46,233,208,.28)}
+.sponsored-ico-xb{background:rgba(139,92,246,.14);color:#c4b5fd;border:1px solid rgba(139,92,246,.3)}
+.sponsored-offer strong{display:block;font-size:.92rem;margin:0 0 .15rem;font-weight:700}
+.sponsored-sub{display:block;font-size:.78rem;color:var(--dim);font-weight:400}
